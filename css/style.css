@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: rgb(255,245,220);
+  text-align: center;
+}
+
+h1, h2, h3, {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(253, 63, 146);
+  text-decoration: none;
+}
+
+
+#linkedin {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    font-size: 40px;
+}
+  #linkedin:hover {
+    color: rgb(51, 153, 255);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#instagram {
+    color: #bc2a8d;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+  #instagram:hover {
+    color: rgb(204, 102, 255);
+    text-decoration: none;
+
+
+
+
